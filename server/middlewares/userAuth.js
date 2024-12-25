@@ -19,13 +19,13 @@ const userAuth = asyncHandler(async (req, res, next) => {
       req.body.userId = tokenDecode.id;
     } else {
       return res.json({
-        success: fals,
+        success: false,
         message: "Not Authorized . Login Again",
       });
     }
     next();
   } catch (error) {
-    return res.json({ success: fals, message: error.message });
+    return res.json({ success: false, message:error.message });
   }
 });
 
