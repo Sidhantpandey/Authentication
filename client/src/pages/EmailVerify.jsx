@@ -64,7 +64,7 @@ useEffect(() => {
 
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-200 to-purple-400">
+    <div className="flex items-center justify-center min-h-screen">
        <img
         onClick={()=>navigate('/')}
         src={assets.logo}
@@ -80,7 +80,7 @@ useEffect(() => {
             ))}
 
           </div>
-          <button className='w-full py-3 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full '>Verify Email</button>
+          <button className='w-full py-3 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full  hover:from-indigo-400 hover:to-indigo-800'>Verify Email</button>
       </form>
 
     </div>

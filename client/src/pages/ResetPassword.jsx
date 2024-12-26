@@ -85,7 +85,7 @@ const onSubmitNewPassword=async(e)=>{
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-200 to-purple-400">
+    <div className="flex items-center justify-center min-h-screen">
       <img
         onClick={()=>navigate('/')}
         src={assets.logo}
@@ -101,7 +101,7 @@ const onSubmitNewPassword=async(e)=>{
             <img src={assets.mail_icon} alt="" />
             <input value={email} onChange={(e)=>setEmail(e.target.value)} required className='bg-transparent outline-none text-white' placeholder='Email Id' type="email" />
           </div>
-          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full mt-3'>Submit</button>
+          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full mt-3  hover:from-indigo-400 hover:to-indigo-800'>Submit</button>
       </form>}
       
 
@@ -117,7 +117,7 @@ const onSubmitNewPassword=async(e)=>{
             ))}
 
           </div>
-          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full '>Submit</button>
+          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full  hover:from-indigo-400 hover:to-indigo-800 '>Submit</button>
       </form>}
 
 
@@ -130,7 +130,7 @@ const onSubmitNewPassword=async(e)=>{
             <img src={assets.lock_icon} alt="" />
             <input value={newPassword} onChange={(e)=>setnewPassword(e.target.value)} required className='bg-transparent outline-none text-white' placeholder='Password' type="password" />
           </div>
-          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full mt-3'>Submit</button>
+          <button className='w-full py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-900 text-white rounded-full mt-3  hover:from-indigo-400 hover:to-indigo-800'>Submit</button>
       </form>}
       
 
