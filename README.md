@@ -45,7 +45,7 @@ This project is a robust user authentication system developed using Node.js. It 
 
 4. **Run the application**:
    ```bash
-   npm start
+   npm run start
    ```
 
    The application will be accessible at `http://localhost:3000`.
